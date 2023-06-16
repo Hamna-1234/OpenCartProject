@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T15:22:04 IST" name="Suite" finished-at="2023-06-14T15:22:27 IST" duration-ms="22836">
+  <suite started-at="2023-06-16T13:41:52 IST" name="Suite" finished-at="2023-06-16T13:42:32 IST" duration-ms="39097">
     <groups>
       <group name="Master">
-        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a482e36]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="Tc_002_LoginTest.test_login()[pri:0, instance:testCases.Tc_002_LoginTest@6cf0e0ba]" name="test_login" class="testCases.Tc_002_LoginTest"/>
+        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1623b78d]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="Tc_002_LoginTest.test_login()[pri:0, instance:testCases.Tc_002_LoginTest@4efbca5a]" name="test_login" class="testCases.Tc_002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="Tc_002_LoginTest.test_login()[pri:0, instance:testCases.Tc_002_LoginTest@6cf0e0ba]" name="test_login" class="testCases.Tc_002_LoginTest"/>
+        <method signature="Tc_002_LoginTest.test_login()[pri:0, instance:testCases.Tc_002_LoginTest@4efbca5a]" name="test_login" class="testCases.Tc_002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a482e36]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1623b78d]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-06-14T15:22:04 IST" name="Test" finished-at="2023-06-14T15:22:27 IST" duration-ms="22836">
+    <test started-at="2023-06-16T13:41:52 IST" name="Test" finished-at="2023-06-16T13:42:32 IST" duration-ms="39097">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a482e36]" started-at="2023-06-14T15:22:05 IST" name="setup" finished-at="2023-06-14T15:22:14 IST" duration-ms="9490" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1623b78d]" started-at="2023-06-16T13:41:53 IST" name="setup" finished-at="2023-06-16T13:41:59 IST" duration-ms="6162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a482e36]" started-at="2023-06-14T15:22:14 IST" name="test_registrationaccount" finished-at="2023-06-14T15:22:17 IST" duration-ms="2995" status="FAIL">
+        <test-method signature="test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1623b78d]" started-at="2023-06-16T13:41:59 IST" name="test_registrationaccount" finished-at="2023-06-16T13:42:02 IST" duration-ms="2550" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Your registration completed] but found []]]>
@@ -42,8 +42,10 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at testCases.TC_001_AccountRegistrationTest.test_registrationaccount(TC_001_AccountRegistrationTest.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -78,13 +80,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_registrationaccount -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a482e36]" started-at="2023-06-14T15:22:18 IST" name="logout" finished-at="2023-06-14T15:22:19 IST" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1623b78d]" started-at="2023-06-16T13:42:02 IST" name="logout" finished-at="2023-06-16T13:42:02 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.Tc_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_002_LoginTest@6cf0e0ba]" started-at="2023-06-14T15:22:19 IST" name="setup" finished-at="2023-06-14T15:22:23 IST" duration-ms="4720" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_002_LoginTest@4efbca5a]" started-at="2023-06-16T13:42:02 IST" name="setup" finished-at="2023-06-16T13:42:14 IST" duration-ms="11371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,11 +97,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_login()[pri:0, instance:testCases.Tc_002_LoginTest@6cf0e0ba]" started-at="2023-06-14T15:22:23 IST" name="test_login" finished-at="2023-06-14T15:22:27 IST" duration-ms="3307" status="PASS">
+        <test-method signature="test_login()[pri:0, instance:testCases.Tc_002_LoginTest@4efbca5a]" started-at="2023-06-16T13:42:14 IST" name="test_login" finished-at="2023-06-16T13:42:31 IST" duration-ms="17659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc_002_LoginTest@6cf0e0ba]" started-at="2023-06-14T15:22:27 IST" name="logout" finished-at="2023-06-14T15:22:27 IST" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc_002_LoginTest@4efbca5a]" started-at="2023-06-16T13:42:31 IST" name="logout" finished-at="2023-06-16T13:42:32 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
