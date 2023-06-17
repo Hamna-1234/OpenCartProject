@@ -436,3 +436,15 @@
 15:21:10.523 [main] INFO  testCases.TC_001_AccountRegistrationTest - Register button clicked
 15:21:10.576 [main] INFO  testCases.TC_001_AccountRegistrationTest - registered
 15:21:10.577 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has finished*****
+16:03:25.048 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has started*****
+16:03:25.186 [main] INFO  testCases.TC_001_AccountRegistrationTest - First name is entered
+16:03:25.332 [main] INFO  testCases.TC_001_AccountRegistrationTest - Last name is entered
+16:03:25.468 [main] INFO  testCases.TC_001_AccountRegistrationTest - email is entered
+16:03:25.590 [main] INFO  testCases.TC_001_AccountRegistrationTest - Password is set
+16:03:25.717 [main] INFO  testCases.TC_001_AccountRegistrationTest - password is confirmed
+16:03:26.595 [main] INFO  testCases.TC_001_AccountRegistrationTest - Register button clicked
+16:03:26.646 [main] INFO  testCases.TC_001_AccountRegistrationTest - registered
+16:03:26.647 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has finished*****
+16:03:34.448 [main] INFO  testCases.Tc_002_LoginTest - ***Tc_002_LoginTest***
+16:03:35.493 [main] INFO  testCases.Tc_002_LoginTest - clicked on login link and page is visible
+16:03:38.415 [main] INFO  testCases.Tc_002_LoginTest - clicked on login button
