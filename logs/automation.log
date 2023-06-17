@@ -415,3 +415,24 @@
 13:42:14.197 [main] INFO  testCases.Tc_002_LoginTest - ***Tc_002_LoginTest***
 13:42:15.562 [main] INFO  testCases.Tc_002_LoginTest - clicked on login link and page is visible
 13:42:31.766 [main] INFO  testCases.Tc_002_LoginTest - clicked on login button
+15:08:21.438 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has started*****
+15:08:21.734 [main] INFO  testCases.TC_001_AccountRegistrationTest - First name is entered
+15:08:21.917 [main] INFO  testCases.TC_001_AccountRegistrationTest - Last name is entered
+15:08:22.099 [main] INFO  testCases.TC_001_AccountRegistrationTest - email is entered
+15:08:22.265 [main] INFO  testCases.TC_001_AccountRegistrationTest - Password is set
+15:08:22.401 [main] INFO  testCases.TC_001_AccountRegistrationTest - password is confirmed
+15:08:23.272 [main] INFO  testCases.TC_001_AccountRegistrationTest - Register button clicked
+15:08:23.333 [main] INFO  testCases.TC_001_AccountRegistrationTest - registered
+15:08:23.333 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has finished*****
+15:08:30.934 [main] INFO  testCases.Tc_002_LoginTest - ***Tc_002_LoginTest***
+15:08:32.033 [main] INFO  testCases.Tc_002_LoginTest - clicked on login link and page is visible
+15:08:33.693 [main] INFO  testCases.Tc_002_LoginTest - clicked on login button
+15:21:08.949 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has started*****
+15:21:09.090 [main] INFO  testCases.TC_001_AccountRegistrationTest - First name is entered
+15:21:09.238 [main] INFO  testCases.TC_001_AccountRegistrationTest - Last name is entered
+15:21:09.378 [main] INFO  testCases.TC_001_AccountRegistrationTest - email is entered
+15:21:09.496 [main] INFO  testCases.TC_001_AccountRegistrationTest - Password is set
+15:21:09.615 [main] INFO  testCases.TC_001_AccountRegistrationTest - password is confirmed
+15:21:10.523 [main] INFO  testCases.TC_001_AccountRegistrationTest - Register button clicked
+15:21:10.576 [main] INFO  testCases.TC_001_AccountRegistrationTest - registered
+15:21:10.577 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****TC_001_AccountRegistrationTest has finished*****

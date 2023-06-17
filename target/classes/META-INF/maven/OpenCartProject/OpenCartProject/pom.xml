@@ -3,7 +3,9 @@
   <groupId>OpenCartProject</groupId>
   <artifactId>OpenCartProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<!--   <properties>
   
+ </properties>-->
   <build>
 	  <pluginManagement>
 		  <plugins>
