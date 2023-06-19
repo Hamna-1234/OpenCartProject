@@ -22,6 +22,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseClass {
 
@@ -36,10 +37,12 @@ public class BaseClass {
 		rb=ResourceBundle.getBundle("config");
 		
 		logger=LogManager.getLogger(this.getClass());
+		 ChromeOptions options = new ChromeOptions(); 
+		 options.setHeadless(true);
 		
 		if(br.equals("chrome"))
 		{
-		driver=new ChromeDriver();
+		driver=new ChromeDriver(options);
 		}
 		else if(br.equals("edge"))
 		{

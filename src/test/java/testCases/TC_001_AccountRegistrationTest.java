@@ -8,7 +8,7 @@ import pageObjects.*;
 
 public class TC_001_AccountRegistrationTest extends BaseClass {
 	
-	
+	public static String email;
 	
 	@Test(groups= {"Regression","Master"})
 	void test_registrationaccount() throws InterruptedException
@@ -25,7 +25,8 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 		 regpage.setlastname("lakshmi");
 		 logger.info("Last name is entered");
 		 
-		 regpage.setemail(rb.getString("email"));
+		 email=randomstring();
+		 regpage.setemail(email+"@gmail.com");
 		 logger.info("email is entered");
 		 
 		 regpage.setpassword(rb.getString("password"));

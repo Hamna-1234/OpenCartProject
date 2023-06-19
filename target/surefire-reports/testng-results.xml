@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-19T12:59:01 IST" name="Suite" finished-at="2023-06-19T12:59:21 IST" duration-ms="19442">
+  <suite started-at="2023-06-19T13:30:44 IST" name="Suite" finished-at="2023-06-19T13:31:03 IST" duration-ms="18641">
     <groups>
       <group name="Master">
         <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
@@ -15,9 +15,9 @@
         <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-06-19T12:59:01 IST" name="Test" finished-at="2023-06-19T12:59:21 IST" duration-ms="19442">
+    <test started-at="2023-06-19T13:30:44 IST" name="Test" finished-at="2023-06-19T13:31:03 IST" duration-ms="18641">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T12:59:02 IST" name="setup" finished-at="2023-06-19T12:59:08 IST" duration-ms="6498" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T13:30:44 IST" name="setup" finished-at="2023-06-19T13:30:51 IST" duration-ms="6326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T12:59:08 IST" name="test_registrationaccount" finished-at="2023-06-19T12:59:14 IST" duration-ms="5747" status="PASS">
+        <test-method signature="test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T13:30:51 IST" name="test_registrationaccount" finished-at="2023-06-19T13:30:56 IST" duration-ms="5168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_registrationaccount -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T12:59:14 IST" name="logout" finished-at="2023-06-19T12:59:14 IST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@72967906]" started-at="2023-06-19T13:30:56 IST" name="logout" finished-at="2023-06-19T13:30:57 IST" duration-ms="1265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.Tc_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T12:59:14 IST" name="setup" finished-at="2023-06-19T12:59:18 IST" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T13:30:57 IST" name="setup" finished-at="2023-06-19T13:31:00 IST" duration-ms="2627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_login()[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T12:59:18 IST" name="test_login" finished-at="2023-06-19T12:59:20 IST" duration-ms="2528" status="PASS">
+        <test-method signature="test_login()[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T13:31:00 IST" name="test_login" finished-at="2023-06-19T13:31:02 IST" duration-ms="2504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T12:59:20 IST" name="logout" finished-at="2023-06-19T12:59:21 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc_002_LoginTest@7d8995e]" started-at="2023-06-19T13:31:02 IST" name="logout" finished-at="2023-06-19T13:31:03 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->

@@ -17,7 +17,7 @@ public class Tc_002_LoginTest extends BaseClass {
 		logger.info("clicked on login link and page is visible");
 		
 		Loginpage lp=new Loginpage(driver);
-		lp.enteremail(rb.getString("email"));
+		lp.enteremail(TC_001_AccountRegistrationTest.email+"@gmail.com");
 		lp.enterpassword(rb.getString("password"));
 		
 		lp.clicklogin();
